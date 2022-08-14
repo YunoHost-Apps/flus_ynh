@@ -103,7 +103,7 @@ ynh_setup_source --dest_dir="$final_path"
 rm -R $final_path/lib/Minz
 
 # Download, check integrity, uncompress and patch the source from GitHub
-git clone https://github.com/flusio/Minz "$final_path/lib" --quiet
+git clone https://github.com/flusio/Minz "$final_path/lib/Minz" --quiet
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
