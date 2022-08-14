@@ -31,7 +31,7 @@ admin=$YNH_APP_ARG_ADMIN
 
 app=$YNH_APP_INSTANCE_NAME
 
-key=$(ynh_string_random --length=32)
+key=$(ynh_string_random --length=64)
 email=$(ynh_user_get_info --username=$admin --key=mail)
 
 #=================================================
