@@ -1,0 +1,9 @@
+[Unit]
+Description=A job worker for flusio
+
+[Service]
+User=www-data
+ExecStart=/usr/bin/php__PHPVERSION__ __FINALPATH__/cli jobs watch
+
+[Install]
+WantedBy=multi-user.target
