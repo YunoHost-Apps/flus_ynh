@@ -151,9 +151,9 @@ chown $app:$app "$final_path/.env"
 #=================================================
 ynh_script_progression --message="Configuring..." --weight=2
 
-pushd $final_path
-	php$phpversion cli system setup
-popd
+#pushd $final_path
+#	php$phpversion cli system setup
+#popd
 
 #=================================================
 # SPECIFIC SETUP
