@@ -98,10 +98,8 @@ ynh_script_progression --message="Setting up source files..." --weight=7
 
 mkdir $final_path
 ynh_app_setting_set --app=$app --key=final_path --value=$final_path
-# Download, check integrity, uncompress and patch the source from app.src
-#ynh_setup_source --dest_dir="$final_path"
 
-git clone --recurse-submodules https://github.com/flusio/flusio.git $final_path
+git clone --recurse-submodules https://github.com/flusio/flusio.git --quiet $final_path
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
@@ -151,11 +149,11 @@ chown $app:$app "$final_path/.env"
 #=================================================
 # BUILDING
 #=================================================
-#ynh_script_progression --message="Configuring..." --weight=2
+ynh_script_progression --message="Configuring..." --weight=2
 
-#pushd $final_path
-#	php$phpversion cli system setup
-#popd
+pushd $final_path
+	php$phpversion cli system setup
+popd
 
 #=================================================
 # SETUP SYSTEMD
