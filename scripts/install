@@ -100,6 +100,9 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$final_path"
 
+# Download, check integrity, uncompress and patch the source from GitHub
+git clone https://github.com/flusio/Minz "$final_path/lib" --quiet
+
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:www-data "$final_path"
@@ -144,13 +147,6 @@ ynh_add_config --template="../conf/env.sample" --destination="$final_path/.env"
 
 chmod 400 "$final_path/.env"
 chown $app:$app "$final_path/.env"
-
-#=================================================
-# INSTALL APP WITH COMPOSER
-#=================================================
-ynh_script_progression --message="Installing app with Composer..." --weight=15
-
-ynh_install_composer 
 
 #=================================================
 # BUILDING
