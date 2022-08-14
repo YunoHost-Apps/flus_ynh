@@ -146,6 +146,13 @@ chmod 400 "$final_path/.env"
 chown $app:$app "$final_path/.env"
 
 #=================================================
+# INSTALL APP WITH COMPOSER
+#=================================================
+ynh_script_progression --message="Installing app with Composer..." --weight=15
+
+ynh_install_composer 
+
+#=================================================
 # BUILDING
 #=================================================
 #ynh_script_progression --message="Configuring..." --weight=2
