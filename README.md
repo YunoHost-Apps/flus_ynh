@@ -24,7 +24,7 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 - the news to keep control over your newsfeed;
 - the profile to share links with others.
 
-**Shipped version:** 0.48~ynh1
+**Shipped version:** 0.53~ynh1
 
 **Demo:** https://demo.flus.fr/login
 
