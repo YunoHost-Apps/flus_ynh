@@ -26,7 +26,6 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 
 **Shipped version:** 0.48~ynh1
 
-
 **Demo:** https://demo.flus.fr/login
 
 ## Screenshots

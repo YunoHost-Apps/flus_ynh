@@ -5,15 +5,15 @@ It shall NOT be edited by hand.
 
 # Flusio pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/flusio.svg)](https://dash.yunohost.org/appci/app/flusio) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/flusio.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/flusio.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/flusio.svg)](https://dash.yunohost.org/appci/app/flusio) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/flusio.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/flusio.maintain.svg)  
 [![Installer Flusio avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flusio)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Flusio rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Flusio rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 flusio brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web.
 
@@ -24,20 +24,19 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 - the news to keep control over your newsfeed;
 - the profile to share links with others.
 
-**Version incluse :** 0.48~ynh1
-
+**Version incluse :** 0.48~ynh1
 
 **Démo :** https://demo.flus.fr/login
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Flusio](./doc/screenshots/screenshot.jpg)
+![Capture d’écran de Flusio](./doc/screenshots/screenshot.jpg)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://flus.fr/>
-* Documentation officielle de l'admin : <https://github.com/flusio/flusio/blob/main/docs/production.md>
-* Dépôt de code officiel de l'app : <https://github.com/flusio/flusio>
+* Site officiel de l’app : <https://flus.fr/>
+* Documentation officielle de l’admin : <https://github.com/flusio/flusio/blob/main/docs/production.md>
+* Dépôt de code officiel de l’app : <https://github.com/flusio/flusio>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_flusio>
 * Signaler un bug : <https://github.com/YunoHost-Apps/flusio_ynh/issues>
 
@@ -53,4 +52,4 @@ ou
 sudo yunohost app upgrade flusio -u https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
