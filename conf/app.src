@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/flusio/flusio/archive/refs/tags/v0.48.tar.gz
-SOURCE_SUM=8c9e772ed7f2ec26bbbd3f710de3c7c741ba7c2b2ab293923484f56e0ac3f2ac
+SOURCE_URL=https://github.com/flusio/flusio/archive/refs/tags/v0.53.tar.gz
+SOURCE_SUM=4d7b2e26aa0355125bee54d7017cfd8edebfcb3e9e635dcc2ed6f2f376e43fc7
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

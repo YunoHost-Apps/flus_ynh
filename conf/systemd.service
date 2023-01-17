@@ -2,7 +2,8 @@
 Description=A job worker for flusio
 
 [Service]
-User=www-data
+User=__APP__
+Group=__APP__
 ExecStart=/usr/bin/php__PHPVERSION__ __FINALPATH__/cli jobs watch
 
 [Install]
