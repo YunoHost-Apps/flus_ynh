@@ -68,7 +68,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql, php8.3-gd, php8.3-int, php8.3-pgsql"
+    packages = "postgresql, php8.3-gd, php8.3-intl, php8.3-pgsql"
 
     [resources.database]
     type = "postgresql"
