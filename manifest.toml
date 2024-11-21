@@ -13,7 +13,7 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "AGPL-3.0"
-website = "https://example.com"
+website = "https://flus.fr/"
 demo = "https://demo.flus.fr/"
 admindoc = "https://yunohost.org/packaging_apps"
 userdoc = "https://yunohost.org/apps"
@@ -82,7 +82,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql, php8.3-gd, php8.3-int, php8.3-psql"
+    packages = "postgresql, php8.3-gd, php8.3-int, php8.3-pgsql"
 
     [resources.database]
     type = "postgresql"
