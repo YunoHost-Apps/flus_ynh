@@ -31,7 +31,7 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 
 ## Снимки экрана
 
-![Снимок экрана Flus](./doc/screenshots/screenshot.jpg)
+![Снимок экрана Flus](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 

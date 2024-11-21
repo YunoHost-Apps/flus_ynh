@@ -31,7 +31,7 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 
 ## 截图
 
-![Flus 的截图](./doc/screenshots/screenshot.jpg)
+![Flus 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 

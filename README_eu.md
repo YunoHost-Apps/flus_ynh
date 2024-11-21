@@ -31,7 +31,7 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 
 ## Pantaila-argazkiak
 
-![Flus(r)en pantaila-argazkia](./doc/screenshots/screenshot.jpg)
+![Flus(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 
