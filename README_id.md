@@ -36,7 +36,6 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://flus.fr/>
-- Dokumentasi pengguna resmi: <https://yunohost.org/apps>
 - Dokumentasi admin resmi: <https://yunohost.org/packaging_apps>
 - Depot kode aplikasi hulu: <https://github.com/flusio/Flus>
 - Gudang YunoHost: <https://apps.yunohost.org/app/flus>
