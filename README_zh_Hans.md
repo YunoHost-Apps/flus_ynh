@@ -3,21 +3,20 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 Flusio
+# YunoHost 上的 Flus
 
-[![集成程度](https://dash.yunohost.org/integration/flusio.svg)](https://ci-apps.yunohost.org/ci/apps/flusio/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/flusio.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/flusio.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
 
-[![使用 YunoHost 安装 Flusio](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flusio)
+[![使用 YunoHost 安装 Flus](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Flusio。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Flus。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
 
-flusio brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web.
-
+Flus brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web. It comes with four main features:
 ### Features
 
 - the feeds aggregation (RSS and Atom) to follow any website, podcast or video channel in one place;
@@ -25,32 +24,34 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 - the news to keep control over your newsfeed;
 - the profile to share links with others.
 
-**分发版本：** 0.53~ynh1
 
-**演示：** <https://demo.flus.fr/login>
+**分发版本：** 1.1.0~ynh1
+
+**演示：** <https://demo.flus.fr/>
 
 ## 截图
 
-![Flusio 的截图](./doc/screenshots/screenshot.jpg)
+![Flus 的截图](./doc/screenshots/screenshot.jpg)
 
 ## 文档与资源
 
-- 官方应用网站： <https://flus.fr/>
-- 官方管理文档： <https://github.com/flusio/flusio/blob/main/docs/production.md>
-- 上游应用代码库： <https://github.com/flusio/flusio>
-- YunoHost 商店： <https://apps.yunohost.org/app/flusio>
-- 报告 bug： <https://github.com/YunoHost-Apps/flusio_ynh/issues>
+- 官方应用网站： <https://example.com>
+- 官方用户文档： <https://yunohost.org/apps>
+- 官方管理文档： <https://yunohost.org/packaging_apps>
+- 上游应用代码库： <https://github.com/flusio/Flus>
+- YunoHost 商店： <https://apps.yunohost.org/app/flus>
+- 报告 bug： <https://github.com/YunoHost-Apps/flus_ynh/issues>
 
 ## 开发者信息
 
-请向 [`testing` 分支](https://github.com/YunoHost-Apps/flusio_ynh/tree/testing) 发送拉取请求。
+请向 [`testing` 分支](https://github.com/YunoHost-Apps/flus_ynh/tree/testing) 发送拉取请求。
 
 如要尝试 `testing` 分支，请这样操作：
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 或
-sudo yunohost app upgrade flusio -u https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app upgrade flus -u https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 ```
 
 **有关应用打包的更多信息：** <https://yunohost.org/packaging_apps>

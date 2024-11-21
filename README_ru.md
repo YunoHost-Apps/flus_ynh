@@ -3,21 +3,20 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# Flusio для YunoHost
+# Flus для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/flusio.svg)](https://ci-apps.yunohost.org/ci/apps/flusio/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/flusio.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/flusio.maintain.svg)
+[![Уровень интеграции](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
 
-[![Установите Flusio с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flusio)
+[![Установите Flus с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить Flusio быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить Flus быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
 
-flusio brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web.
-
+Flus brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web. It comes with four main features:
 ### Features
 
 - the feeds aggregation (RSS and Atom) to follow any website, podcast or video channel in one place;
@@ -25,32 +24,34 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 - the news to keep control over your newsfeed;
 - the profile to share links with others.
 
-**Поставляемая версия:** 0.53~ynh1
 
-**Демо-версия:** <https://demo.flus.fr/login>
+**Поставляемая версия:** 1.1.0~ynh1
+
+**Демо-версия:** <https://demo.flus.fr/>
 
 ## Снимки экрана
 
-![Снимок экрана Flusio](./doc/screenshots/screenshot.jpg)
+![Снимок экрана Flus](./doc/screenshots/screenshot.jpg)
 
 ## Документация и ресурсы
 
-- Официальный веб-сайт приложения: <https://flus.fr/>
-- Официальная документация администратора: <https://github.com/flusio/flusio/blob/main/docs/production.md>
-- Репозиторий кода главной ветки приложения: <https://github.com/flusio/flusio>
-- Магазин YunoHost: <https://apps.yunohost.org/app/flusio>
-- Сообщите об ошибке: <https://github.com/YunoHost-Apps/flusio_ynh/issues>
+- Официальный веб-сайт приложения: <https://example.com>
+- Официальная документация пользователя: <https://yunohost.org/apps>
+- Официальная документация администратора: <https://yunohost.org/packaging_apps>
+- Репозиторий кода главной ветки приложения: <https://github.com/flusio/Flus>
+- Магазин YunoHost: <https://apps.yunohost.org/app/flus>
+- Сообщите об ошибке: <https://github.com/YunoHost-Apps/flus_ynh/issues>
 
 ## Информация для разработчиков
 
-Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/flusio_ynh/tree/testing).
+Пришлите Ваш запрос на слияние в [ветку `testing`](https://github.com/YunoHost-Apps/flus_ynh/tree/testing).
 
 Чтобы попробовать ветку `testing`, пожалуйста, сделайте что-то вроде этого:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 или
-sudo yunohost app upgrade flusio -u https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app upgrade flus -u https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 ```
 
 **Больше информации о пакетировании приложений:** <https://yunohost.org/packaging_apps>

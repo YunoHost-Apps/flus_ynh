@@ -3,21 +3,20 @@ N.B.: README ini dibuat secara otomatis oleh <https://github.com/YunoHost/apps/t
 Ini TIDAK boleh diedit dengan tangan.
 -->
 
-# Flusio untuk YunoHost
+# Flus untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/flusio.svg)](https://ci-apps.yunohost.org/ci/apps/flusio/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/flusio.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/flusio.maintain.svg)
+[![Tingkat integrasi](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
 
-[![Pasang Flusio dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flusio)
+[![Pasang Flus dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
-> *Paket ini memperbolehkan Anda untuk memasang Flusio secara cepat dan mudah pada server YunoHost.*  
+> *Paket ini memperbolehkan Anda untuk memasang Flus secara cepat dan mudah pada server YunoHost.*  
 > *Bila Anda tidak mempunyai YunoHost, silakan berkonsultasi dengan [panduan](https://yunohost.org/install) untuk mempelajari bagaimana untuk memasangnya.*
 
 ## Ringkasan
 
-flusio brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web.
-
+Flus brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web. It comes with four main features:
 ### Features
 
 - the feeds aggregation (RSS and Atom) to follow any website, podcast or video channel in one place;
@@ -25,32 +24,34 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 - the news to keep control over your newsfeed;
 - the profile to share links with others.
 
-**Versi terkirim:** 0.53~ynh1
 
-**Demo:** <https://demo.flus.fr/login>
+**Versi terkirim:** 1.1.0~ynh1
+
+**Demo:** <https://demo.flus.fr/>
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Flusio](./doc/screenshots/screenshot.jpg)
+![Tangkapan Layar pada Flus](./doc/screenshots/screenshot.jpg)
 
 ## Dokumentasi dan sumber daya
 
-- Website aplikasi resmi: <https://flus.fr/>
-- Dokumentasi admin resmi: <https://github.com/flusio/flusio/blob/main/docs/production.md>
-- Depot kode aplikasi hulu: <https://github.com/flusio/flusio>
-- Gudang YunoHost: <https://apps.yunohost.org/app/flusio>
-- Laporkan bug: <https://github.com/YunoHost-Apps/flusio_ynh/issues>
+- Website aplikasi resmi: <https://example.com>
+- Dokumentasi pengguna resmi: <https://yunohost.org/apps>
+- Dokumentasi admin resmi: <https://yunohost.org/packaging_apps>
+- Depot kode aplikasi hulu: <https://github.com/flusio/Flus>
+- Gudang YunoHost: <https://apps.yunohost.org/app/flus>
+- Laporkan bug: <https://github.com/YunoHost-Apps/flus_ynh/issues>
 
 ## Info developer
 
-Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/flusio_ynh/tree/testing).
+Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/flus_ynh/tree/testing).
 
 Untuk mencoba branch `testing`, silakan dilanjutkan seperti:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 atau
-sudo yunohost app upgrade flusio -u https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app upgrade flus -u https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 ```
 
 **Info lebih lanjut mengenai pemaketan aplikasi:** <https://yunohost.org/packaging_apps>
