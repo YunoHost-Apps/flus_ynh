@@ -36,7 +36,6 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://flus.fr/>
-- Documentation officielle de l’admin : <https://yunohost.org/packaging_apps>
 - Dépôt de code officiel de l’app : <https://github.com/flusio/Flus>
 - YunoHost Store : <https://apps.yunohost.org/app/flus>
 - Signaler un bug : <https://github.com/YunoHost-Apps/flus_ynh/issues>
