@@ -31,7 +31,7 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 
 ## Schermafdrukken
 
-![Schermafdrukken van Flus](./doc/screenshots/screenshot.jpg)
+![Schermafdrukken van Flus](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

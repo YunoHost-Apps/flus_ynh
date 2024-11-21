@@ -31,7 +31,7 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Flus](./doc/screenshots/screenshot.jpg)
+![Tangkapan Layar pada Flus](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 
