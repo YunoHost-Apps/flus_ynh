@@ -15,7 +15,6 @@ maintainers = ["eric_G"]
 license = "AGPL-3.0"
 website = "https://flus.fr/"
 demo = "https://demo.flus.fr/"
-admindoc = "https://yunohost.org/packaging_apps"
 code = "https://github.com/flusio/Flus"
 fund = "https://flus.fr/tarifs"
 
