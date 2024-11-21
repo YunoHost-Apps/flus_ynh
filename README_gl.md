@@ -3,21 +3,20 @@ NOTA: Este README foi creado automáticamente por <https://github.com/YunoHost/a
 NON debe editarse manualmente.
 -->
 
-# Flusio para YunoHost
+# Flus para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/flusio.svg)](https://ci-apps.yunohost.org/ci/apps/flusio/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/flusio.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/flusio.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
 
-[![Instalar Flusio con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flusio)
+[![Instalar Flus con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 
 *[Le este README en outros idiomas.](./ALL_README.md)*
 
-> *Este paquete permíteche instalar Flusio de xeito rápido e doado nun servidor YunoHost.*  
+> *Este paquete permíteche instalar Flus de xeito rápido e doado nun servidor YunoHost.*  
 > *Se non usas YunoHost, le a [documentación](https://yunohost.org/install) para saber como instalalo.*
 
 ## Vista xeral
 
-flusio brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web.
-
+Flus brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web. It comes with four main features:
 ### Features
 
 - the feeds aggregation (RSS and Atom) to follow any website, podcast or video channel in one place;
@@ -25,32 +24,34 @@ flusio brings together news feed aggregation and social bookmarking in a modern 
 - the news to keep control over your newsfeed;
 - the profile to share links with others.
 
-**Versión proporcionada:** 0.53~ynh1
 
-**Demo:** <https://demo.flus.fr/login>
+**Versión proporcionada:** 1.1.0~ynh1
+
+**Demo:** <https://demo.flus.fr/>
 
 ## Capturas de pantalla
 
-![Captura de pantalla de Flusio](./doc/screenshots/screenshot.jpg)
+![Captura de pantalla de Flus](./doc/screenshots/screenshot.jpg)
 
 ## Documentación e recursos
 
-- Web oficial da app: <https://flus.fr/>
-- Documentación oficial para admin: <https://github.com/flusio/flusio/blob/main/docs/production.md>
-- Repositorio de orixe do código: <https://github.com/flusio/flusio>
-- Tenda YunoHost: <https://apps.yunohost.org/app/flusio>
-- Informar dun problema: <https://github.com/YunoHost-Apps/flusio_ynh/issues>
+- Web oficial da app: <https://example.com>
+- Documentación oficial para usuarias: <https://yunohost.org/apps>
+- Documentación oficial para admin: <https://yunohost.org/packaging_apps>
+- Repositorio de orixe do código: <https://github.com/flusio/Flus>
+- Tenda YunoHost: <https://apps.yunohost.org/app/flus>
+- Informar dun problema: <https://github.com/YunoHost-Apps/flus_ynh/issues>
 
 ## Info de desenvolvemento
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/flusio_ynh/tree/testing).
+Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/flus_ynh/tree/testing).
 
 Para probar a rama `testing`, procede deste xeito:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade flusio -u https://github.com/YunoHost-Apps/flusio_ynh/tree/testing --debug
+sudo yunohost app upgrade flus -u https://github.com/YunoHost-Apps/flus_ynh/tree/testing --debug
 ```
 
 **Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>
