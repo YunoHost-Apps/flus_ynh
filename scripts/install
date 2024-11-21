@@ -44,6 +44,11 @@ yunohost service add "$app" --description="A short description of the app" --log
 
 ynh_config_add_logrotate
 
+
+pushd $install_dir
+	php$php_version cli migrations setup --seed
+popd
+
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================

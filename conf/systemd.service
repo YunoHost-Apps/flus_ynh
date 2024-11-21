@@ -5,6 +5,8 @@ Description=A job worker for Flus
 User=__APP__
 Group=__APP__
 ExecStart=/usr/bin/php__PHP_VERSION__ __INSTALL_DIR__/cli jobs watch
+Restart=on-failure
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target
