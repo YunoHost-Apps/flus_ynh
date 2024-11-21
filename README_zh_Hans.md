@@ -35,7 +35,7 @@ Flus brings together news feed aggregation and social bookmarking in a modern wa
 
 ## 文档与资源
 
-- 官方应用网站： <https://example.com>
+- 官方应用网站： <https://flus.fr/>
 - 官方用户文档： <https://yunohost.org/apps>
 - 官方管理文档： <https://yunohost.org/packaging_apps>
 - 上游应用代码库： <https://github.com/flusio/Flus>
