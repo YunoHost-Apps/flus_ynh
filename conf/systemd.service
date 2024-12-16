@@ -1,10 +1,12 @@
 [Unit]
-Description=A job worker for flusio
+Description=A job worker for Flus
 
 [Service]
 User=__APP__
 Group=__APP__
-ExecStart=/usr/bin/php__PHPVERSION__ __FINALPATH__/cli jobs watch
+ExecStart=/usr/bin/php__PHP_VERSION__ __INSTALL_DIR__/cli jobs watch
+Restart=on-failure
+RestartSec=5s
 
 [Install]
 WantedBy=multi-user.target

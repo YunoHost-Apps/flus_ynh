@@ -1,5 +1,4 @@
-flusio brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web.
-
+Flus brings together news feed aggregation and social bookmarking in a modern way. It is designed as a simple, yet complete tool for organising the links you gather around the Web. It comes with four main features:
 ### Features
 
 - the feeds aggregation (RSS and Atom) to follow any website, podcast or video channel in one place;
