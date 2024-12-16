@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Flus YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/flus)](https://ci-apps.yunohost.org/ci/apps/flus/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/flus)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/flus)
 
 [![Instalatu Flus YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 

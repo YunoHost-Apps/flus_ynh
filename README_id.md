@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Flus untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/flus)](https://ci-apps.yunohost.org/ci/apps/flus/)
+![Status kerja](https://apps.yunohost.org/badge/state/flus)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/flus)
 
 [![Pasang Flus dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 

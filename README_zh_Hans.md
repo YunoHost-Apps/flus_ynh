@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Flus
 
-[![集成程度](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/flus)](https://ci-apps.yunohost.org/ci/apps/flus/)
+![工作状态](https://apps.yunohost.org/badge/state/flus)
+![维护状态](https://apps.yunohost.org/badge/maintained/flus)
 
 [![使用 YunoHost 安装 Flus](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 

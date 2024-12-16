@@ -5,7 +5,9 @@
 
 # Flus для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/flus)](https://ci-apps.yunohost.org/ci/apps/flus/)
+![Состояние работы](https://apps.yunohost.org/badge/state/flus)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/flus)
 
 [![Установите Flus с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 

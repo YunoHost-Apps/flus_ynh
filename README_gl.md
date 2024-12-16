@@ -5,7 +5,9 @@ NON debe editarse manualmente.
 
 # Flus para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/flus.svg)](https://ci-apps.yunohost.org/ci/apps/flus/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/flus.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/flus.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/flus)](https://ci-apps.yunohost.org/ci/apps/flus/)
+![Estado de funcionamento](https://apps.yunohost.org/badge/state/flus)
+![Estado de mantemento](https://apps.yunohost.org/badge/maintained/flus)
 
 [![Instalar Flus con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=flus)
 
