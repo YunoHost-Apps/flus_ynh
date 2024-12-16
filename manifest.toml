@@ -19,7 +19,7 @@ code = "https://github.com/flusio/Flus"
 fund = "https://flus.fr/tarifs"
 
 [integration]
-yunohost = ">= 11.2.30"
+yunohost = ">= 12.0.8"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
