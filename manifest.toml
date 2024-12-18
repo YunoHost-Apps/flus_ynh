@@ -51,8 +51,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/flusio/Flus/archive/refs/tags/v1.1.0.tar.gz"
-    sha256 = "5a08d9ff39cf1d88181d8fb890d35ea90a8b4af26ec9507b118a9e2435dfaae7"
+    url = "https://github.com/flusio/Flus/archive/main.tar.gz"
+    sha256 = "547d83ee2f1223a137a829a9cd6a241c878407a016c0954561d7913e45c8747b"
 
     # autoupdate.strategy = "latest_github_tag"
 
