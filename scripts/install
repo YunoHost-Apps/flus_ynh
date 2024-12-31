@@ -47,7 +47,7 @@ ynh_config_add_nginx
 
 ynh_config_add_systemd
 
-yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
+yunohost service add "$app" --description="Aggregate, save and share links from all over the Web" --log="/var/log/$app/$app.log"
 
 ynh_config_add_logrotate
 
