@@ -51,7 +51,6 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    
     url = "https://github.com/flusio/Flus/archive/refs/tags/v2.4.0.tar.gz"
     sha256 = "1c6ac079714822b61552129022cbc22d1cfe6a2f67f5507cfc7e3032a6380007"
     autoupdate.strategy = "latest_github_tag"
@@ -69,7 +68,7 @@ ram.runtime = "50M"
     [resources.ports]
 
     [resources.apt]
-    packages = "postgresql, php8.4-gettext, php8.4-gd, php8.4-intl, php8.4-pgsql"
+    packages = "postgresql, php8.5-gettext, php8.5-gd, php8.5-intl, php8.5-pgsql"
 
     [resources.database]
     type = "postgresql"
