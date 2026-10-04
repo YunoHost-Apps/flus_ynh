@@ -9,7 +9,7 @@ description.fr = "Agréger, enregistrer et partager des liens de partout sur le 
 
 version = "2.4.0~ynh1"
 
-maintainers = []
+maintainers = ["eric_G"]
 
 [upstream]
 license = "AGPL-3.0"
