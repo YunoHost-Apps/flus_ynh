@@ -1,6 +1,5 @@
 #!/bin/bash
 
-source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -31,9 +30,9 @@ ynh_script_progression "Upgrading database..."
 
 #ynh_composer_exec install --no-dev --optimize-autoloader
 
-#pushd $install_dir
-#	php$php_version cli migrations setup --seed
-#popd
+pushd $install_dir
+	php$php_version cli migrations setup --seed
+popd
 
 #=================================================
 # SYSTEM CONFIGURATION
@@ -44,18 +43,7 @@ ynh_config_add_phpfpm
 
 ynh_config_add_nginx
 
-ynh_config_add_systemd
-
-yunohost service add "$app" --description="Aggregate, save and share links from all over the Web" --log="/var/log/$app/$app.log"
-
 ynh_config_add_logrotate
-
-#=================================================
-# START SYSTEMD SERVICE
-#=================================================
-ynh_script_progression "Starting $app's systemd service..."
-
-ynh_systemctl --service="$app" --action="start"
 
 #=================================================
 # END OF SCRIPT
