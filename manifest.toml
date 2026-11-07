@@ -7,7 +7,7 @@ name = "Flus"
 description.en = "Aggregate, save and share links from all over the Web"
 description.fr = "Agréger, enregistrer et partager des liens de partout sur le Web"
 
-version = "2.5.4~ynh1"
+version = "3.0.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -52,8 +52,8 @@ ram.runtime = "50M"
 
     [resources.sources.main]
 
-    url = "https://github.com/flusio/Flus/archive/refs/tags/v2.5.4.tar.gz"
-    sha256 = "a4afc339c0e074ba0a5b7cc187eace409ccf2f495723add9a59cc8d795f0ca13"
+    url = "https://github.com/flusio/Flus/archive/refs/tags/v3.0.1.tar.gz"
+    sha256 = "150d18a99d8a3bf64723658cd0e20c4cae40400d2ee4a456473dd1718c821230"
     autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
